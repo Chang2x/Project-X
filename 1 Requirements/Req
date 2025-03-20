@@ -1,0 +1,145 @@
+---------------------------------------------------------------------------------------------------------------
+Functional Requirements
+
+R01: The system shall record roll call attendance.
+R02: Only registered devices shall be allowed in the system.
+R03: The system shall support location-based (GPS) verification to confirm student attendance.
+R04: The system shall validate the user against the QR.
+R05: The system shall enforce OTP authentication to enhance security.
+R06: The system shall generate the following reports:
+
+Attendance
+
+List of Students
+
+List of Lecturers
+
+List of Courses
+
+Students’ enrolment per course
+
+R07: The system shall enable the Administrator to capture student pictures using a registered device and store:
+
+A passport-style photo
+
+The student’s name and university ID
+
+The photo as a file and the student’s details in the database
+
+R08: The system shall support three primary roles:
+
+Administrator
+
+Instructors
+
+Students
+
+R09: Authorized users shall be able to:
+
+Use a registered phone, tablet, or computer to identify students.
+
+Register phones for attendance tracking and link them to a specific authorized user.
+
+Allow each instructor to have multiple registered devices, but a device can only be registered to 1 instructor.
+
+Locate a lost registered lecturer's phone.
+
+R10: Authorized users shall be able to perform CRUD (Create, Read, Update, Delete) operations on courses.
+R11: Only authorized users shall assign schedules and enrol students.
+R12: Authorized users shall scan students' QR codes to record attendance in real time.
+R13: Authorized users shall remove students from a course if they drop out.
+R14: Authorized users shall access all course-related data, including student enrolment, attendance records, and course details. This access is controlled by the authorization system.
+
+R15: Students shall be able to view their attendance records in the provided interface for attendance verification.
+R16: Students shall NOT be allowed to modify or delete attendance records.
+---------------------------------------------------------------------------------------------------------------
+Non-Functional Requirements
+R17: The database shall be hosted on a cloud server.
+R18: Database System feature access shall be restricted to authenticated users via a secure API.
+---------------------------------------------------------------------------------------------------------------
+Testing Requirements
+R19: Testing shall be conducted at multiple levels:
+
+User Acceptance Testing (UAT): Validate system compliance with client expectations.
+
+System Testing: Ensure seamless integration of all system components.
+
+Unit Testing: Verify the correct functionality of individual components.
+---------------------------------------------------------------------------------------------------------------
+Documentation Requirements
+R20: The system’s formal documentation shall include:
+
+System Requirements
+
+System Design
+
+User Acceptance Test (UAT)
+
+R21: The documentation and code should be persisted in a Version Management tool like GIT to control versioning, team sharing, and safe keeping.
+R22: GIT repositories should be made available to the client.
+
+R23: The system’s high-level documentation shall include:
+
+A High-Level Use Case Diagram representing system interactions and workflows.
+
+A High-Level UML Diagram illustrating relationships between system entities.
+
+A Conceptual Diagram providing a high-level representation of system architecture, key components, and their interactions.
+
+R24: Proof of Conceptual Model Review shall be provided.
+
+R25: A Project Plan shall be created, including:
+
+A breakdown matrix of what is to be done by when.
+
+Plan and actual columns for tracking progress.
+
+R26: Detailed design documentation shall include:
+
+Component Diagram
+
+Class Diagram showing classes and methods
+
+Activity diagrams
+
+At least 1 detailed sequence diagram
+
+R27: Evidence of a Detailed Design Review shall be provided.
+---------------------------------------------------------------------------------------------------------------
+Implementation Requirements
+R28: The code shall be clear, well-structured, and well-commented with standard headers for:
+
+Classes
+
+Methods
+
+R29: Evidence of daily team standups shall be maintained, including:
+
+A record for each person
+
+What they did yesterday
+
+What they are doing today
+
+Any impediments (things that are stopping them from progressing)
+
+R30: Evidence of Code Reviews shall be maintained, including:
+
+Who is presenting the code
+
+Who is reviewing the code
+
+Printed copies of the code being reviewed shall be made available to reviewers a day before the review.
+---------------------------------------------------------------------------------------------------------------
+Final Output Requirements
+R31: The final output shall include:
+
+Working code
+
+Demonstration of the working code
+---------------------------------------------------------------------------------------------------------------
+General Requirements
+R32: It is not expected that all requirements will be implemented in great detail.
+R33: Familiarity with each step of the process is more important than full implementation.
+R34: Time management is critical to ensure the project does not overrun the deadline.
+R35: A working project that is partially feature-complete is more important than a non-working project.
